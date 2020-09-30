@@ -10,7 +10,7 @@
 .navbar a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
 }
 .nav-contents ul {
   list-style-type: none;
@@ -25,7 +25,7 @@
 .nav-contents a {
   color: white;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .nav-contents a:hover {
@@ -37,12 +37,9 @@
 /*file2.html*/
 
 body {
-  background-image: url("backgroundimg2.jpg");
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  /* background: #262626; */
-}
+  background-color: #262626;
+  
+  }
 .center {
   margin-top: 50px;
   background-color: black;
@@ -57,9 +54,11 @@ body {
 }
 h2 {
   margin: 0;
-  padding: 0;
+  padding-left:17%;
+  padding-bottom: 10px;
   color: #fff;
   text-transform: uppercase;
+  font-weight: normal;
 }
 .skillbox {
   box-sizing: border-box;
