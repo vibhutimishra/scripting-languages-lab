@@ -113,15 +113,15 @@ h2 {
 .box .skill
 {
   position: relative;
-  flex-grow: 1;
+  flex-grow: 2;
   text-align: center;
 }
 .box .skill .graph
  {
   position: absolute;
-  width: 40px;
+  width: 33px;
   bottom: 0;
-  left: 50%;
+  left: 48%;
   transform: translateX(-50%);
   background: #0fffb7;
 }
@@ -130,9 +130,19 @@ h2 {
   position: absolute;
   top: 0;
   left: 50%;
+  font-size: 14px;
   transform: translateX(-50%);
   text-align: center;
 }
+.box .skill .name{
+  position: absolute;
+  top: 290px;
+  left: 50%;
+  font-size: 14px;
+  color: white;
+  transform: translateX(-50%);
+  text-align: center;
+} 
 .piechart { 
   top: 23%; 
   display: block; 
