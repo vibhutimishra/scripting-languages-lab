@@ -31,18 +31,19 @@
 .nav-contents a:hover {
   color: rgb(255, 0, 55);
 }
-
+.nav-contents .active {
+  color: rgb(141, 253, 244);
+}
 /*content*/
 
 /*file2.html*/
 
 body {
   background-color: #262626;
-  
-  }
+}
 .center {
   margin-top: 50px;
-  background-color: rgba(0, 0, 0, 0.5);;
+  background-color: rgba(0, 0, 0, 0.5);
   width: 25%;
   position: absolute;
   top: 40%;
@@ -55,7 +56,7 @@ body {
 
 h2 {
   margin: 0;
-  padding-left:12%;
+  padding-left: 12%;
   padding-bottom: 10px;
   color: #fff;
   text-transform: uppercase;
@@ -93,8 +94,7 @@ h2 {
   height: 5px;
 }
 /*bargraph*/
-.box
-{
+.box {
   padding: 50px;
   box-sizing: border-box;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
@@ -102,7 +102,7 @@ h2 {
   margin-top: 50px;
   top: 40%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.5);
   width: 25%;
   height: 390px;
@@ -110,14 +110,12 @@ h2 {
   border-left: 1px solid #000;
   display: flex;
 }
-.box .skill
-{
+.box .skill {
   position: relative;
   flex-grow: 2;
   text-align: center;
 }
-.box .skill .graph
- {
+.box .skill .graph {
   position: absolute;
   width: 33px;
   bottom: 0;
@@ -125,8 +123,7 @@ h2 {
   transform: translateX(-50%);
   background: #0fffb7;
 }
-.box .skill .graph .percent
-{
+.box .skill .graph .percent {
   position: absolute;
   top: 0;
   left: 50%;
@@ -134,7 +131,7 @@ h2 {
   transform: translateX(-50%);
   text-align: center;
 }
-.box .skill .name{
+.box .skill .name {
   position: absolute;
   top: 290px;
   left: 50%;
@@ -142,29 +139,26 @@ h2 {
   color: white;
   transform: translateX(-50%);
   text-align: center;
-} 
-.piechart { 
-  top: 23%; 
-  display: block; 
-  position: absolute; 
-  width: 50%; 
-  height: 50%; 
+}
+.piechart {
+  top: 23%;
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 50%;
 
-  border-radius: 50%; 
-  background-image: conic-gradient( 
-      pink 70deg,  
-      lightblue 0 235deg,  
-      orange 0); 
-} 
-.pie-chart{
+  border-radius: 50%;
+  background-image: conic-gradient(pink 70deg, lightblue 0 235deg, orange 0);
+}
+.pie-chart {
   margin-top: 50px;
-  background-color:rgba(0, 0, 0, 0.5);;
+  background-color: rgba(0, 0, 0, 0.5);
   width: 25%;
   position: absolute;
   top: 40%;
-  height:390px;
+  height: 390px;
   transform: translate(270%, -50%);
   padding: 100px;
   box-sizing: border-box;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }

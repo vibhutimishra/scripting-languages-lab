@@ -10,14 +10,14 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>HTML Assignment</title>
   </head>
 
 
 
       <div class="navbar">
-        <a class="navbar-brand" href="#">LOGO </a>
+        <a class="navbar-brand" href="#"><img src="./images/logo.png"> </a>
         
         <div class="nav-contents">
           <ul class="mr-auto">
@@ -25,7 +25,7 @@
               <a href="home.html">Home</a>
             </li>
             <li>
-              <a href="form.html">Form</a>
+              <a class="active" href="form.html">Form</a>
             </li>
           </ul>
         </div>
@@ -64,8 +64,9 @@
         <label class="control-label" for="gender">Gender:</label>
         <div class="col-sm-6">
           <input type="radio" id="male" name="gender" value="male" checked />
-          <label for="male">Male&nbsp;&nbsp;</label>
+          <label for="male">Male</label>
           <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
        </div>
       </div>
    
@@ -92,6 +93,23 @@
             placeholder="Enter Phone Number"
             required="required"
           />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="phone">Address:</label>
+        <div class="col-sm-6">
+          <textarea class="form-control" rows=2></textarea>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="phone">Research Topic:</label>
+        <div class="col-sm-6">
+          <select class="form-control research">
+            <option value="ml">Machine Learning</option>
+            <option value="bigData">Big Data Analytics</option>
+            <option value="iot">Internet of Things</option>
+            <option value="ai">Artifical Intelligence</option>
+          </select>
         </div>
       </div>
       <div class="form-group">
@@ -131,17 +149,47 @@
     <!-- right div -->
 
     <div class="rightDiv">
-      <h4>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only
-        five centuries, but also the leap into electronic typesetting,
-        remaining essentially unchanged. It was popularised in the 1960s with
-        the release of Letraset sheets containing Lorem Ipsum passages, and
-        more recently with desktop publishing software like Aldus PageMaker
-        including versions of Lorem Ipsum.
-      </h4>
+      <h3><p>
+        <h4>This form has all the form elements:</h4>
+        <ul style="list-style-type: square;" >
+          <li> Field</li>
+          <li>Area</li>
+          <li>Email Field</li>
+          <li>Checkboxes</li>
+          <li>Radio Buttons</li>
+          <li>ListBox</li>
+          <li>Submit button</li>
+        </ul>
+      </p></h3>
+      <h3>
+        <marquee style="margin-left: 100px; width: 75%;">Let's take a break from this form:</marquee>
+      </h3>
+      <p>
+        <h4>Discontinued tags of HTML4 to HTML5 = ></h4>
+        <ul>
+          <li><font color="#8033FF"><p>I am font tag in PURPLE </p></font></li>
+          <li><center>This center tag </center></li>
+          <li><u>Look under ME!!!</u></li>
+          <li><s>I have been striked</s></li>
+          <li><big>BIG TAG</big></li>
+          <li><tt>Teletype Text</tt></li>
+        </ul>
+      </p>
+      <p>
+        <br>
+        <h3 style="line-height: 1.2;">
+         This Paragraph represents the <color style="color: rgb(58, 31, 235);">color tag</color> 
+         with some fun styles like <i>italics</i>,<b>bold </b>and <u>underline</u> 
+        <br>
+        with a break tag to have easy readability.
+        <br>
+      </h3>
+      <hr>
+        <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+          Want to see something interesting: 
+        </h2>
+       <center><h4> Google "marquee html"</h4></center>
+      </p>
     </div>
 
 </body>

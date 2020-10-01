@@ -12,6 +12,7 @@
   text-decoration: none;
   font-weight: normal;
 }
+
 .nav-contents ul {
   list-style-type: none;
   margin: 0;
@@ -32,12 +33,15 @@
   color: rgb(255, 0, 55);
 }
 
+.nav-contents .active {
+  color: rgb(141, 253, 244);
+}
 /*content*/
 
 /*file2.html*/
 
 body {
-  background-image: url("backgroundimg2.jpg");
+  background-image: url("../images/backgroundimg2.jpg");
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -99,9 +103,17 @@ input {
   margin: 40px 30px;
   margin-left: 0px;
   background-color: white;
-  padding: 20px 10px;
+  padding: 20px 50px;
   font-family: "EB Garamond", serif;
   font-weight: 500;
   font-size: 20px;
   opacity: 0.8;
+}
+.research {
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid #ced4da;
+}
+textarea {
+  resize: none;
 }
